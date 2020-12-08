@@ -35,7 +35,7 @@ def satisfies_letter_pos_cond(cond_str, pw):
     return pos1_match != pos2_match
 
 
-puzzle_input = parse_input("./day2.txt")
+puzzle_input = parse_input("./day02.txt")
 
 print("Part 1\n", len(
     list(filter(lambda x: satisfies_num_letters_cond(*x), puzzle_input))))

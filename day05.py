@@ -2,7 +2,7 @@ from common import *
 
 
 def parse_input():
-    with open("./day5.txt") as f:
+    with open("./day05.txt") as f:
         return [line.strip() for line in f.readlines()]
 
 

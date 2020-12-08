@@ -17,6 +17,6 @@ def sum_to_2020(values):
     return sum(values) == 2020
 
 
-puzzle_input = parse_input("./day1.txt")
+puzzle_input = parse_input("./day01.txt")
 print("Part 1\n", get_answer(puzzle_input, sum_to_2020, 2), "winner!!!")
 print("Part 2\n", get_answer(puzzle_input, sum_to_2020, 3), "winner!!!")

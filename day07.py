@@ -7,7 +7,7 @@ def parse(data):
 
 
 def parse_input():
-    with open("./day7.txt") as f:
+    with open("./day07.txt") as f:
         return parse(f)
 
 

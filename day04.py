@@ -2,7 +2,7 @@ from common import *
 
 
 def parse_input():
-    with open("./day4.txt") as f:
+    with open("./day04.txt") as f:
         return [dict([y for y in x.split(":")] for x in it.chain(*map(lambda x: x.split(" "), passport.split("\n")))) for passport in f.read().split("\n\n")]
 
 

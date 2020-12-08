@@ -2,7 +2,7 @@ from common import *
 
 
 def parse_input():
-    with open("./day6.txt") as f:
+    with open("./day06.txt") as f:
         groups = [x.strip().split("\n") for x in f.read().split("\n\n")]
     return groups
 

@@ -4,7 +4,7 @@ from common import *
 def get_answer(slope, nTrees=0):
     x = 0
     dx, dy = slope
-    with open("./day3.txt") as f:
+    with open("./day03.txt") as f:
         for line in it.islice(map(str.strip, f), dy, None, dy):
             x = (x+dx) % (len(line))
             if (line[x] == "#"):
